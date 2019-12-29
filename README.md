@@ -10,7 +10,7 @@ To run the model simply clone the repository and run `docker build .`
 
 # Generation
 The model can be run by importing the jokes python library in the docker container.
-'import jokes'
-Then run 'jokes.genjoke()'
+`import jokes`
+Then run `jokes.genjoke()`
 
-'jokes.genjoke(prefix = "", temperature = .7, length - 80, truncate = True)'
+`jokes.genjoke(prefix = "", temperature = .7, length - 80, truncate = True)`
