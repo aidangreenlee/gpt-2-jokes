@@ -13,4 +13,4 @@ The model can be run by importing the jokes python library in the docker contain
 `import jokes`
 Then run `jokes.genjoke()`
 
-`jokes.genjoke(prefix = "", temperature = .7, length - 80, truncate = True)`
+`jokes.genjoke(prefix = "", temperature = .7, length = 80, truncate = True)`
